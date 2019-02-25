@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+#CallPanel-panelControl {
+  width: 6vw;
+  height: 6vw;
+  position: fixed;
+  background-color: #33a2a4;
+  right: 1vw;
+  bottom: 1vw;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+#CallPanel-panelControl:hover {
+  width: 24vw;
+  height: 35%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 50% 0px 0px 0px;
+}
+#CallPanel-panelControl:hover > #CallPanel-content {
+  display: block;
+}
+#CallPanel-panelControl:hover > #CallPanel-inqueue {
+  display: none;
+}
+#CallPanel-panelControl #CallPanel-inqueue {
+  font-size: 3em;
+  line-height: 2.5;
+  text-align: center;
+  color: white;
+}
+#CallPanel-panelControl #CallPanel-content {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  display: none;
+  text-align: center;
+  border-radius: 50% 0 0 0;
+  margin-bottom: 14%;
+  color: #33a2a4;
+}
+#CallPanel-panelControl #CallPanel-content #CallPanel-number {
+  float: right;
+  font-size: 2em;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 3%;
+  text-align: center;
+  margin: 1vw;
+}
+#CallPanel-panelControl #CallPanel-content #CallPanel-passwd {
+  text-align: center;
+  font-size: 6em;
+  width: 85%;
+  float: right;
+  color: white;
+  padding-bottom: 5%;
+}
+#CallPanel-panelControl #CallPanel-content #CallPanel-bols {
+  display: inline-flex;
+}
+#CallPanel-panelControl #CallPanel-content #CallPanel-bols .CallPanel-bol {
+  width: 3vw;
+  height: 3vw;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1;
+  display: inline-block;
+  padding: 1vw;
+  margin: 4%;
+  cursor: pointer;
+  font-size: 4em;
+}
+#CallPanel-panelControl #CallPanel-content #CallPanel-bols .CallPanel-bol::hover {
+  box-shadow: 0px 0px 5px 1px #CCC;
+}
+
+/*# sourceMappingURL=style.css.map */

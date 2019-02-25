@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Panel - CallPanel</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div id="blink"></div>
+
+	<div id="callingNow">
+		<div id="passArea">
+			<h2 id="nowName"></h2>
+			<h1 id="nowPasswd"></h1>
+		</div>
+		<div id="guicheArea">
+			<h2>Desk</h2>
+			<h1 id="nowChiche"></h1>
+		</div>
+	</div>
+	
+	<div id="calledArea">
+		<div class="called">
+			<span class="name">#Detran</span>
+			<span class="passwd">D255</span>
+			<span class="chiche">Guichê 14</span>
+		</div>
+		<div class="called">
+			<span class="name">#Detran</span>
+			<span class="passwd">D255</span>
+			<span class="chiche">Guichê 14</span>
+		</div>
+		<div class="called">
+			<span class="name">#Detran</span>
+			<span class="passwd">D255</span>
+			<span class="chiche">Guichê 14</span>
+		</div>
+		<div class="called">
+			<span class="name">#Detran</span>
+			<span class="passwd">D255</span>
+			<span class="chiche">Guichê 14</span>
+		</div>
+		<div class="called">
+			<span class="name">#Detran</span>
+			<span class="passwd">D255</span>
+			<span class="chiche">Guichê 14</span>
+		</div>
+		<div class="called">
+			<span class="name">#Detran</span>
+			<span class="passwd">D255</span>
+			<span class="chiche">Guichê 14</span>
+		</div>
+	</div>
+	
+	<audio id="notificationAudio" src="notify.mp3"></audio>
+	<script src="js/script.js"></script>
+
+	<script>
+		CallPanel.conect('localhost', 5001, false, "5asd64sad56a4sd5as4d564e5g4t6h54t");
+	</script>
+	
+</body>
+</html>

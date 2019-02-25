@@ -1,0 +1,31 @@
+{
+  "name": "callpanel",
+  "version": "1.0.0",
+  "description": "Password panel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "authors": [
+    {
+      "name": "Danilo Dutra",
+      "email": "contato@danbd.me",
+      "homepage": "https://danbd.me"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danilobd/callpanel.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "sass": "^1.16.1"
+  },
+  "bugs": {
+    "url": "https://github.com/danilobd/callpanel/issues"
+  }
+}

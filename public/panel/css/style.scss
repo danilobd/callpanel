@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+body{
+	color: #6b6767;
+}
+
+#blink {
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	position: absolute;
+	opacity: 0.5;
+	visibility: hidden;
+}
+
+#callingNow {
+	width: 100%;
+	background-color: #238423;
+	height: 80vh;
+	text-align: center;
+
+	#passArea {
+		width: 60%;
+		background-color: #FAFAFA;
+		height: 100%;
+		float: left;
+
+		h2{
+			text-align: left;
+		}
+
+		h1 {
+			font-size: 30em;
+		}
+	}
+
+	#guicheArea {
+		width: 40%;
+		height: 100%;
+		background-color: #F4F4F4;
+		float: right;
+		text-align: center;
+
+		h2{
+			padding-top: 22vh;
+		}
+	}
+
+	h1{
+		font-size: 25em;
+	}
+
+	h2 {	
+		font-size: 10em;
+		padding-top: 10vh;
+		margin-left: 4vw;
+	}
+}
+
+#calledArea {
+	width: 100%;
+	height: 20vh;
+	background-color: #DFDFDF;
+	text-align: center;
+
+	.called {
+		width: 15%;
+		text-align: center;
+		padding-top: 2vh;
+		display: inline-block;
+		opacity: 0.7;
+
+		span{
+			font-size: 3em;
+			display: block;
+		}
+
+		.passwd{
+			font-weight: bold;
+			font-size: 4em;
+		}
+	}
+}
