@@ -6,31 +6,16 @@ A users password panel to desk services
 
 ![desk-panel](https://user-images.githubusercontent.com/16763395/53369309-b1be6c80-3929-11e9-9292-24c0e9f83d36.png)
 
-## Getting Started
-
-### Dependencies
-
-    Node.js
-    
- The Node.js package manager
- 
-    npm 
- 
-The WebSocket library
-
-    WS
-
-And some optional library to development
-
-    nodemon
-  
-    scss
+## Getting Start
 
 ### Instaling
 
 Clone this repository and install the dependencies
 
     npm install
+Or
+    
+    yarn install
 
 Change the parameters of configuration to your Ip address if you run outside of localhost
 
